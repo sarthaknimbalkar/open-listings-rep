@@ -1,0 +1,49 @@
+{
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // You can use ${workspaceFolder} it will be replaced by workspaceFolder path
+    "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+    "javascript.validate.enable": false,
+    // "editor.codeActionsOnSave": ["source.organizeImports"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "emmet.includeLanguages": {
+        "eta": "html"
+    },
+    // Preferred path ending with extension (good for ESM & cjs).
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+    // Enable auto import suggestions.
+    "javascript.suggest.autoImports": true,
+    // Other suggestions useful stuff:
+    // Complete functions with their parameter signature.
+    "javascript.suggest.completeFunctionCalls": true,
+    // Enable suggestion to complete JSDoc comments.
+    "javascript.suggest.completeJSDocs": true,
+    // The 3 most important one:
+    // Enable semantic checking of JavaScript files.
+    // Existing jsconfig.json or tsconfig.json files override this setting.
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "[eta]": {
+        "editor.defaultFormatter": "besthyhy.ejs-eta-beautify"
+    },
+    "files.exclude": {
+        "backup/": true,
+        "credentials/": true,
+        "dist/": true,
+        "docs/": true,
+        "host-data/": true,
+        "logs/": true,
+        "nedb/": true,
+        "reqs/": true,
+        "tools/": true,
+        "_test/": true,
+        ".idea/": true,
+        ".husky/": true,
+    }    
+}

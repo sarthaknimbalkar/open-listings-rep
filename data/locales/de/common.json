@@ -1,0 +1,78 @@
+{
+    "$schema": "../schema",
+    "announcements": [
+        "{{app_name}} is in Demo mode. The service is still in active development"
+    ],
+    "listings": {
+        "listings": {
+            "title": "{{app_name}} - Alle Abschnitte",
+            "intro": "Kleinanzeigen ins Internet gebracht. Hier können Sie kostenlos nicht-kommerzielle Angebote genießen",
+            "success": "Wir haben die neuesten Einträge aus allen Bereichen :)",
+            "error": ""
+        },
+        "markets": {
+            "title": "{{app_name}} - <i>{{section}}</i>",
+            "error": "",
+            "success": "Wir haben einige der neuesten Spenden bekommen :)",
+            "intro": "Teilen oder suchen Sie nach gebrauchten Artikeln nebenan. Schenken Sie Ihren alten Kleidern, Möbeln, Elektrogeräten etc. ein zweites Leben."
+        },
+        "events": {
+            "title": "{{app_name}} - <i>{{section}}</i>",
+            "error": "",
+            "success": "Wir haben einige der neuesten Ereignisse :)",
+            "intro": "Rufen Sie für Kultur- oder Hobbytreffen auf. Heute sind Sie nicht mehr getrennt. Nehmen Sie Kontakt mit Organisatoren auf und knüpfen Sie ganz einfach Kontakte."
+        },
+        "skills": {
+            "title": "{{app_name}} - <i>{{section}}</i>",
+            "error": "",
+            "success": "Wir haben einige der neuesten Fähigkeiten :)",
+            "intro": "Informieren Sie die Leute über Ihre Fähigkeiten und bauen Sie Ihr Geschäft aus. Sie können sich auch anderen anschließen, Skillsharing ist eine kostengünstige Möglichkeit, professionelle Fähigkeiten zu erlernen. Noch mehr, Ihr spezielles Auto ist zerkratzt? Sie können um Hilfe bitten."
+        },
+        "hobbies": {
+            "title": "{{app_name}} - <i>{{section}}</i>",
+            "intro": "Sprich offen über deine Hobbys. Finden Sie Freunde mit ähnlichen Hobbys, indem Sie darüber sprechen.",
+            "success": "Wir haben ein paar Hobbys :)",
+            "error": ""
+        },
+        "blogs": {
+            "title": "{{app_name}} - <i>{{section}}</i>",
+            "intro": "Kreative Leidenschaften, Hobbys und Freizeitbeschäftigungen! Hier könnte jedes Thema fallen, also zögern Sie nicht, Ihre Gedanken zu teilen.",
+            "success": "Wir haben einige Blogs :)",
+            "error": ""
+        },
+        "textSearch": {
+            "title": "{{app_name}} - Suchergebnisse",
+            "intro": "Kleinanzeigen ins Internet gebracht. Verwenden Sie unsere Suche, um die besten Ergebnisse auch in verschiedenen Sprachen zu finden!",
+            "success": "Wir haben einige Einträge für Ihre Suche :)",
+            "error": ""
+        },
+        "geolocation": {
+            "title": "{{app_name}} - Geolokalisierte Ergebnisse",
+            "intro": "Kleinanzeigen ins Internet gebracht. Verwenden Sie die Standortsuche, um Angebote in der Nähe zu finden!",
+            "success": "Wir haben einige Angebote in der Nähe :)",
+            "error": ""
+        },
+        "POST_ERR": {
+            "error": "",
+            "title": "{{app_name}} - Error",
+            "intro": "Kleinanzeigen ins Internet gebracht. Leider wurde Ihr neuer Eintrag aufgrund eines Fehlers nicht veröffentlicht. Bitte versuche es erneut."
+        }
+    },
+    "listing": {
+        "id": {
+           "title": "{{app_name}} - <i>{{section}}</i>",
+           "success": "We got the listing :)",
+           "error": ""
+        },
+        "post": {
+           "title": "{{app_name}} - <i>{{section}}</i>",
+           "success": "Thank you for posting a new listing. It will be visible after moderation. You can also deactivate the listing for a while :)",
+           "error": "Image will be loaded shortly!"
+        },
+        "contact": {
+           "title": "{{app_name}} - Contact",
+           "success": "Email successfully sent to publisher",
+           "error": ""
+        }
+     }
+}

@@ -1,0 +1,46 @@
+<% if(typeof section !== 'undefined' && section === 'events'){ %>
+<br>
+<hr>
+<details>
+  <summary class="" data-trans="event-page.add">Add an Event</summary>
+  <div class="row">
+
+    <div class="col-lg-4">
+      <%~ include('editor', it); %>
+    </div>
+
+    <div class="col-lg-4 p-2">
+      <div class="map" id="add-listing-map"></div>
+    </div>
+
+    <form class="col-lg-4 d-flex flex-wrap p-4" action="/listings/events" method="POST" name="addEvent">
+      <div class="mb-3 w-100 py-2">
+        <input name="title" class="form-control add w-100 py-1" id="title" value="" placeholder="titre">
+      </div>
+      <div class="mb-3 w-100 py-2">
+        <div class="w-100"><b data-trans="event-page.start-date">Start date: </b></div>
+        <input name="fromDate" class="form-control" id="fromDate" type="date">
+      </div>
+      <div class="mb-3 w-100 py-2">
+        <div class="w-100"><b data-trans="event-page.end-date">End date: </b></div>
+        <input name="toDate" class="form-control" id="toDate" type="date">
+      </div>
+      <div class="mb-3 w-100 py-2">
+        <%~ include('tag', it); %>
+      </div>
+      <div>
+
+        <input name="desc" class="add" id="description" value="" type="hidden">
+      </div>
+      <input type="hidden" id="lat" name="lat">
+      <input type="hidden" id="lng" name="lng">
+      <!-- Division better to handle this by JS -->
+      <input type="hidden" id="div" name="div" value='Algiers'>
+      <input type="hidden" name="section" value='events'>
+      <div class="w-100">
+        <button type="submit" class="btn btn-primary w-100 py-2 sm:w-auto sm:py-1" id="add-listing">Déposer l'annonce</button>
+      </div>
+    </form>
+  </div>
+</details>
+<% } %>

@@ -1,0 +1,30 @@
+<% if(typeof section !== 'undefined' && section === 'blogs'){ %>
+<br>
+<hr>
+<details>
+  <summary class="" data-trans="blog-page.add">Add a Blog</summary>
+  <div class="row">
+
+    <div class="col-lg-4">
+      <%~ include('editor', it); %>
+    </div>
+
+    <form class="d-flex flex-wrap p-3 m-md-3 col-xl mb-xl-auto" action="/listings/blogs" method="POST" name="addBlog">
+      <div class="mb-3 w-100 py-2">
+        <input name="title" class="form-control add w-100 py-1" id="title" value="" placeholder="titre">
+      </div>
+      <div class="mb-3 w-100 py-2">
+        <%~ include('tag', it); %>
+      </div>
+      <div>
+
+        <input name="desc" class="add" id="description" value="" type="hidden">
+      </div>
+      <input type="hidden" name="section" value='blogs'>
+      <div class="w-100">
+        <button type="submit" class="btn btn-primary w-100 py-2 sm:w-auto sm:py-1" id="add-listing">Déposer l'annonce</button>
+      </div>
+    </form>
+  </div>
+</details>
+<% } %>

@@ -1,0 +1,18 @@
+{
+    "verbose": true,
+    "delay": "2000",
+    "ext": "js,eta",
+    "watch": [
+        "./*.js",
+        "./*.json",
+        "./templates/**/*.eta",
+        "src/",
+        ".env"
+    ],
+    "ignore": [
+        "./host-data",
+        "./logs",
+        "./public",
+        "./client"
+    ]
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <%~ include('../partials/shared/head', it); %>
+  <% if(typeof title !== 'undefined' && title === 'Reactivate') { %>
+  <style>
+    body {
+      background-image: linear-gradient(transparent 50%, rgb(226 169 169 / 50%) 50%);
+      background-size: 1px 4px;
+    }
+  </style>
+  <% } %>
+</head>
+
+
+<body>
+  <%~ include('../partials/shared/navbar', it); %>
+  <div class="container">
+    <%~ include('../partials/shared/lead', it); %>
+
+    <div id="breadcrumb">
+      <%~ include('../partials/sections/breadcrumb', it); %>
+    </div>
+
+    <div class="row info">
+      <%~ include('../partials/components/user_info', it); %>
+      <div class="" id="tags">
+        <% for (var i=0; data.tags && data.tags.length > 0 && i < data.tags.length ; i++) { %>
+        <a href="/tag/<%= data.tags[i] %>"><span class="badge bg-secondary"><%= data.tags[i] %></span></a>
+        <% } %>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      <% if (it.author) { %>
+        <div class="col-lg-6">
+          <details>
+            <summary class="" data-trans="">Edit listing</summary>
+            <%~ include('../partials/sections/add/editor', { desc: data.cdesc }); %>
+            <form class="" action="/listings/id/<%= data._id %>" method="POST" name="editListing">
+              <input name="description" class="edit" id="description" value="" type="hidden">
+              <div class="w-100">
+                <button type="submit" class="btn btn-primary w-100 py-2 sm:w-auto sm:py-1" id="edit-listing">Edit listing</button>
+              </div>
+            </form>
+          </details>
+        </div>
+      <% } %>
+
+    
+      <% if (['markets', 'events'].indexOf(data.section) >= 0) { %>
+        <div class="col-lg-6 p-2">
+          <div class="map" id="listing-map"></div>
+        </div>
+      <% } %>
+      
+      <% if (typeof data.undraw !== 'undefined') { %>
+        <div class="col-lg-6" id="undraw-output">
+          <img class="svg2" src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/<%= data.undraw+'.svg' %>" alt="<%= data.undraw %>" style="width: 80%; height: 80%;">
+        </div>
+      <% } %>
+      
+      <% if (data.lang === 'ar') { %>
+      <div class="col-lg-6 p-2" dir="rtl">
+      <% } else { %>
+      <div class="col-lg-6 p-2">
+      <% } %>
+        <p><%~ data.desc %></p>
+
+        <% if (typeof data.price !== 'undefined') { %>
+        <input type="text" id="price" value="<%= data.price %>€" data-type="currency" disabled>
+        <% } %>
+
+
+        <% if(typeof data.img !== 'undefined' && data.img){ %>
+        <div class="d-flex"> <% /* <----------- start of img */ %>
+          <div class="mx-auto mx-lg-0">
+            <img id="listingImg" src="<%= data.img %>" alt="<%= data.title + ' image' %>" width="200rem">
+          </div>
+        </div>
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img src="" alt="" class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div> <% /* <----------- end of img */ %>
+        <% } %>
+      </div>
+      
+    </div>
+
+    <%~ include('../partials/conf/prepare_js', it); %>
+    <%~ include('../partials/shared/footer', it); %>
+  </div>
+
+  <%~ include('../partials/conf/before_body_close', it); %>
+  <script>
+    {
+      const scriptElement = document.createElement("script")
+      scriptElement.src = "/javascripts/listing/listing.js"
+      document.body.appendChild(scriptElement)
+
+    }
+  </script>
+</body>
+
+</html>

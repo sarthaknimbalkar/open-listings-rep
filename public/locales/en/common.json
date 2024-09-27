@@ -1,0 +1,59 @@
+{
+  "(events)": "Events & meetings",
+  "(skills)": "Skills & competences",
+  "(hobbies)": "Hobbies",
+  "(blogs)": "Blogs",
+  "(buy)": "Buy a deployment !",
+  "(about)": "About",
+  "(howto)": "How-to",
+  "(tags)": "Tags",
+  "(contact)": "Contact 📩",
+  "(login)": "Login 🔒",
+  "(signup)": "Sign-up 🔒",
+  "(password)": "Password",
+  "(firstname)": "First name",
+  "(secondname)": "Second name",
+  "(reset)": "Reset",
+  "(reset-pass)": "Reset password",
+  "(search)": "Search 🔎",
+  "(exact?)": "Exactly?",
+  "(sincedate)": "Since",
+  "(fuzzysearch)": "Approximate search",
+  "(description)": "Description",
+  "(title)": "Titre",
+  "(title|description)": "Title or description",
+  "(divisions)": "Divisions",
+  "(posted-by)": "Posted by:",
+  "geo": {
+    "(search)": "Geo-location search"
+  },
+  "blog-page": {
+    "add": "Add an article"
+  },
+  "market-page": {
+    "add": "Add a product",
+    "(offer)": "Offer?"
+  },
+  "event-page": {
+    "add": "Add an Event post",
+    "start-date": "Start date",
+    "end-date": "End date"
+  },
+  "hobby-page": {
+    "add": "Add a Hobby post"
+  },
+  "skill-page": {
+    "add": "Add a Skill post",
+    "(offer)": "Offer?"
+  },
+  "tag-language": "Tag language: ",
+  "choose-tags": "Click here to choose tags",
+  "delimitations-map": "Delimitations map",
+  "listings-map": "Listings map",
+  "(english)": "English",
+  "(arabic)": "Arabic",
+  "(french)": "French",
+  "(sections)": "Sections",
+  "(marketplace)": "Marketplace",
+  "(no_cookies)": "No ads & no cookies. No fake accounts nor fake listings"
+}

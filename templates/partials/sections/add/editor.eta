@@ -1,0 +1,6 @@
+<div id="quill-editor" class="listing">
+    <% if (it.desc) { %>
+    <%= it.desc %>
+    <% } %>
+</div>
+<div id="quill-counter" class="listing"></div>

@@ -1,0 +1,55 @@
+<div class=""> <% /* <----------- start of listing head (user) -- */ %>
+
+  <div>
+
+    <% if (it.data.lang === 'ar') { %>
+    <div class="d-flex gap-3" dir="rtl">
+    <% } else { %>
+    <div class="d-flex gap-3">
+    <% } %>
+      <% /* Avatar picture is also a button trigger messaging modal */ %>
+      <a href="#" rev="Send message to user" data-bs-toggle="modal" data-bs-target="#exampleModal" data-backdrop="false">
+        <img src="" id='avatar' width="80" height="80">
+      </a>
+
+      <div>
+        <h2><%= it.data.title %></h2>
+        <p data-trans="(posted-by)">Posted by: <!-- TODO: put author name here--></p>
+      </div>
+    </div>
+
+
+    <% /* Modal */ %>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Adresser un message privé à l'auteur</h5>
+            <% /* <h5 class="modal-title" id="exampleModalLabel">Address a private message to the author</h5> */ %>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+            <form class="row row-cols-lg-auto g-3 align-items-center" id="message-dialog" action="/listings/sendMessage" method="POST" name="sendMessage">
+              <div class="mb-3">
+                <label for="message">Message</label>
+                <div id="quill-editor" class="message px-3 pt-3 bg-white border-bottom-0" data-target="#unique_target" data-max="500" style="color: #333!important;fill: #333!important;"></div>
+                <div id="quill-counter" class="message px-2" style="font-size: 12px; font-family: 'Lucida Console', Arial, Helvetica, sans-serif;"></div>
+              </div>
+              <input type="hidden" name="email" value='<%= it.data.email %>'>
+              <input type="hidden" name="id" value='<%= it.data._id %>'>
+              <input name="message" class="send" id="message" value="" type="hidden">
+              <div class="w-100">
+                <button type="submit" class="btn btn-primary w-100 py-2 sm:w-auto sm:py-1" data-trans="(send)" id="send-message">Envoyer</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div> <% /* <----------- end of listing head (user) */ %>

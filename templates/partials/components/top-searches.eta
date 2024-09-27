@@ -1,0 +1,7 @@
+<nav class="nav d-flex justify-content-between">
+    <% for (var i = 0; tags.length> 0 && i < tags.length && tags[i].tag && i < 10 ; i++) { %>
+        <a href="/keyword/<%=encodeURIComponent(tags[i].tag.trim()) %>" class="">
+            <button type="button" class="btn btn-sm btn-outline-secondary"><%=tags[i].tag %></button>
+        </a>
+    <% }%>
+</nav>

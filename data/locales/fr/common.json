@@ -1,0 +1,231 @@
+{
+   "$schema": "../schema",
+   "announcements": [
+      "{{app_name}} est en mode Démo et le service est toujours en développement actif 🐛"
+   ],
+   "listings": {
+      "listings": {
+         "title": "{{app_name}} - Toutes les rubriques",
+         "intro": "{{app_name}} apporte de la publicité pour les petites annonces sur le Web. Profitez des annonces non commerciales gratuitement",
+         "success": "Voici les dernières annonces de toutes les sections...",
+         "error": ""
+      },
+      "markets": {
+         "title": "{{app_name}} - <i>Vente & achat</i>",
+         "intro": "Partagez ou recherchez des objets d'occasion misent à côté. Donnez une seconde vie à vos vieux vêtements, meubles, appareils électroniques, etc.",
+         "success": "Voici les dernières annonces...",
+         "error": ""
+      },
+      "events": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Faites un appel pour des rencontres culturelles ou de loisirs. Vous n'êtes plus déconnecté! Entrez en contact avec les organisateurs et socialisez plus facilement.",
+         "success": "Voici les dernières annonces d'évènements",
+         "error": ""
+      },
+      "skills": {
+         "title": "{{app_name}} - <i>Emploi</i>",
+         "intro": "Partager vos compétences et développez votre business. Vous pouvez également rejoindre d'autres personnes. Le partage de compétences est un moyen  avantageux d'acquérir des compétences professionnelles",
+         "success": "Voici les dernières annonces de compétences",
+         "error": ""
+      },
+      "hobbies": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Parlez librement de vos loisirs ou trouvez des amis avec des passe-temps similaires en en parlant.",
+         "success": "Voici les dernières annonces de passions",
+         "error": ""
+      },
+      "blogs": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Passions créatives, loisirs et passe-temps! N'importe quel sujet pourrait tomber ici, alors n'hésitez pas à partager vos pensées.",
+         "success": "Nous avons eu quelques articles de blogs...",
+         "error": ""
+      },
+      "textSearch": {
+         "title": "{{app_name}} - resultat de recherche",
+         "intro": "Petites annonces reprises sur le web. Utilisez notre moteur de recherche pour trouver les meilleurs résultats même en différentes langues !",
+         "success": "Résultat de recherche",
+         "error": ""
+      },
+      "geolocation": {
+         "title": "{{app_name}} - recherche géolocalisée",
+         "intro": "Petites annonces reprises sur le web. Utilisez la recherche géolocalisée pour trouver des annonces à proximité !",
+         "success": "Nous avons eu quelques annonces à proximité...",
+         "error": ""
+      },
+      "POST_ERR": {
+         "title": "{{app_name}} - Erreur 🐛",
+         "intro": "Petites annonces reprises sur le web. Malheureusement, votre nouvelle annonce n'a pas été publiée en raison d'une erreur. Veuillez réessayer.",
+         "success": "",
+         "error": ""
+      }
+   },
+   "index": {
+      "division": {
+         "error": "",
+         "intro": "",
+         "success": "Nous avons quelques annonces de toutes les sections qui se situe dans ce département :)",
+         "title": "{{app_name}} - Département 📍🗺️: <i>{{subtitle}}</i>"
+      },
+      "keyword": {
+         "error": "",
+         "intro": "",
+         "success": "Nous avons quelques annonces de toutes les sections pour ce mot clé 🔎...",
+         "title": "{{app_name}} - Mot-clé: <i>{{subtitle}}</i>"
+      },
+      "listings": {
+         "error": "",
+         "intro": "Petites annonces reprises sur le web.",
+         "success": "",
+         "title": "{{app_name}} - Les annonces d'aujourd'hui..."
+      },
+      "tags": {
+         "error": "",
+         "intro": "Petites annonces reprises sur le web.",
+         "success": "Nous avons quelques annonces de toutes les sections qui sont liées à cette catégorie 📝",
+         "title": "{{app_name}} - Catégorie 📝: <i>{{subtitle}}</i>"
+      }
+   },
+   "tags": {
+      "tags": {
+         "title": "",
+         "intro": "",
+         "success": "",
+         "error": ""
+      }
+   },
+   "listing": {
+      "id": {
+         "title": "{{app_name}} - 📚 - <i>{{section}}</i>",
+         "success": "Voici l'annonce",
+         "error": ""
+      },
+      "post": {
+         "title": "{{app_name}} - 📚 - <i>{{section}}</i>",
+         "success": "Merci d'avoir publié une nouvelle annonce. L'annonce sera visible après modération. Vous pouvez également désactiver l'annonce pendant un certain temps :)",
+         "error": "L'image sera chargée sous peu!"
+      },
+      "contact": {
+         "title": "{{app_name}} - Contact",
+         "success": "E-mail envoyé avec succès à l'annonceur",
+         "error": ""
+      }
+   },
+   "message": {
+      "NOT_FOUND": {
+         "title": "{{app_name}} - erreur d'envoie de message 🐛",
+         "message": "Aucune annonce trouvée, L'annonce peut être désactivée ou pas encore approuvée...",
+         "success": "",
+         "error": "Annonce introuvable"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - erreur d'envoi de message 🐛",
+         "message": "Oups, une erreur interne s'est produite 🐛 Veuillez réessayer"
+      },
+      "contact": {
+         "title": "",
+         "message": ""
+      },
+      "verification": {
+         "title": "{{app_name}} - inscription",
+         "message": "Vous devez maintenant vérifier votre inscription. Accédez simplement à votre boîte e-mail et cliquez sur le lien d'activation"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}}",
+         "error": "Please verify the provided information"
+      }
+   },
+   "signup": {
+      "signup": {
+         "title": "{{app_name}} - inscription"
+      },
+      "EMAIL_TAKEN": {
+         "title": "{{app_name}} - erreur d'inscription",
+         "error": "L'e-mail a été pris"
+      },
+      "BAD_EMAIL": {
+         "title": "{{app_name}} - erreur d'inscription",
+         "error": "Merci d'utiliser votre Email personnel"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - erreur d'inscription",
+         "error": "Oups, une erreur interne s'est produite 🐛Veuillez réessayer"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - erreur d'inscription",
+         "error": "Veuillez vérifier les informations fournies"
+      },
+      "UNAUTHORIZED": {
+         "title": "{{app_name}} - confirmation error",
+         "error": "Vous n'êtes pas autorisé à poursuivre. Veuillez vous inscrire"
+      },
+      "INCORRECT_TOKEN": {
+         "title": "{{app_name}} - erreur de confirmation",
+         "error": "Vous n'êtes pas autorisé à poursuivre. Veuillez vous inscrire"
+      },
+      "ALREADY_VERIFIED": {
+         "title": "{{app_name}} - erreur de confirmation",
+         "error": "Vous pouvez vous authentifier. Vous fait désormais partie de la famille"
+      }
+   },
+   "user_profile": {
+      "user_profile": {
+         "title": "{{app_name}} - Profile",
+         "success": "Informations mises à jour",
+         "error": ""
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - erreur d'informations du profile",
+         "error": "Veuillez vérifier les informations saisies"
+      }
+   },
+   "login": {
+      "login": {
+         "title": "{{app_name}} - authentification"
+      },
+      "INCORRECT_CREDENTIALS": {
+         "title": "{{app_name}} - erreur d'authentification",
+         "error": "Veuillez vérifier l'adresse e-mail et le mot de passe et réessayer"
+      },
+      "USER_UNVERIFIED": {
+         "title": "{{app_name}} - erreur d'authentification",
+         "error": "Veuillez vérifier votre e-mail pour activer votre compte"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - erreur d'authentification",
+         "error": "Oups, une erreur s'est produite lors de l'authentification 🐛 Veuillez réessayer"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - erreur d'inscription",
+         "error": "Veuillez vérifier les informations fournies"
+      }
+   },
+   "reset": {
+      "reset": {
+         "title": "{{app_name}} - Réinitialisation de mot de passe"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - erreur de réinitialisation de mot de passe",
+         "error": "Oups, une erreur interne s'est produite lors de la réinitialisation de mot de passe 🐛Veuillez réessayer"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - erreur de réinitialisation",
+         "error": "Vérifiez les informations fournies"
+      }
+   },
+   "mail": {
+      "bootstrap": "instance d'application amorcée correctement",
+      "signup": {
+         "subject": "Vérification du jeton du compte",
+         "text": "Bonjour,\n\nVeuillez vérifier votre compte en cliquant ici :\n{{host}}confirmation/{{token}}/",
+         "html": "Bonjour,\n\nVeuillez vérifier votre compte en cliquant ici :\n{{host}}confirmation/{{token}}/"
+      }
+   },
+   "blog": {
+      "intro": "La section Blogs est dédiée aux annonces qui ne sont pas classifiées. L'administrateur utilise également la section Blogs pour publier sur {{app_name}}"
+   },
+   "generic": {
+      "error": {
+         "server": "Le serveur a du mal à satisfaire la requête. Veuillez réessayer"
+      }
+   }
+}

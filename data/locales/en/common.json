@@ -1,0 +1,238 @@
+{
+   "$schema": "../schema",
+   "announcements": [
+      "{{app_name}} is in demo mode and the service is still in active development 🐛"
+   ],
+   "listings": {
+      "listings": {
+         "title": "{{app_name}} - All sections",
+         "intro": "{{app_name}} brings classifieds advertising to the web. Enjoy non-commercial listings for free",
+         "success": "We got latest listings from all sections...",
+         "error": ""
+      },
+      "markets": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Sell new or used items. Give a second life to your old clothes, furniture, electronics etc",
+         "success": "We got some of the latest market listings...",
+         "error": ""
+      },
+      "events": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "To all who would like to suggest hobbies, meetups and sports tournaments. Get in touch with organizers and socialize easily",
+         "success": "We got some of the latest events listings ...",
+         "error": ""
+      },
+      "skills": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Let people know about your skills and grow your business or professional career",
+         "success": "We got some of the latest skills listings ...",
+         "error": ""
+      },
+      "hobbies": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Share your hobbies freely. Find friends with similar hobbies by talking about it",
+         "success": "We got some of the latest hobbies listings...",
+         "error": ""
+      },
+      "blogs": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Passions, hobbies and pastimes! Any topic could fall here so feel free to share your thoughts.",
+         "success": "We got some blogs threads...",
+         "error": ""
+      },
+      "textSearch": {
+         "title": "{{app_name}} - Search results",
+         "intro": "Classified advertising brought to the web. Use our search to find the best results even in different languages !",
+         "success": "We got some listings for your search...",
+         "error": ""
+      },
+      "geolocation": {
+         "title": "{{app_name}} - Geo-located results",
+         "intro": "Classified advertising brought to the web. Use geo-location search to find listings nearby !",
+         "success": "We got some listings nearby...",
+         "error": ""
+      },
+      "POST_ERR": {
+         "title": "{{app_name}} - Error 🐛",
+         "intro": "Classified advertising brought to the web. Unfortunately, your new listing was not posted because of an error. Please try again",
+         "success": "",
+         "error": ""
+      }
+   },
+   "index": {
+      "static": {
+         "explore_tags": "Explore all tags!",
+         "categories": "Categories",
+         "questions": "Questions",
+         "what_is": "What is {{app_name}}",
+         "how_to": "How to post on {{app_name}}"
+      },
+      "division": {
+         "error": "",
+         "intro": "",
+         "success": "We got listings from all sections which are located in this division 🗺️...",
+         "title": "{{app_name}} - Division 📍🗺️: <i>{{subtitle}}</i>"
+      },
+      "keyword": {
+         "error": "",
+         "intro": "",
+         "success": "We got listings from all sections for this keyword 🔎...",
+         "title": "{{app_name}} - Keyword: <i>{{subtitle}}</i>"
+      },
+      "listings": {
+         "error": "",
+         "intro": "Classified advertising brought to the web.",
+         "success": "",
+         "title": "{{app_name}} - Today's listings"
+      },
+      "tags": {
+         "error": "",
+         "intro": "Classified advertising brought to the web.",
+         "success": "We got listings from all sections which are related to the tag 📝",
+         "title": "{{app_name}} - Tag 📝: <i>{{subtitle}}</i>"
+      }
+   },
+   "tags": {
+      "tags": {
+         "title": "",
+         "intro": "",
+         "success": "",
+         "error": ""
+      }
+   },
+   "listing": {
+      "id": {
+         "title": "{{app_name}} - 📚 - <i>{{section}}</i>",
+         "success": "We got the listing",
+         "error": ""
+      },
+      "post": {
+         "title": "{{app_name}} - 📚 - <i>{{section}}</i>",
+         "success": "Thank you for posting a new listing. It will be visible after moderation...",
+         "error": "Image will be loaded shortly!"
+      },
+      "contact": {
+         "title": "{{app_name}} - Contact",
+         "success": "Email successfully sent to publisher",
+         "error": ""
+      }
+   },
+   "message": {
+      "NOT_FOUND": {
+         "title": "{{app_name}} - Error occurred when sending a message 🐛",
+         "message": "No listing found, it can be deactivated or not approved yet...",
+         "success": "",
+         "error": "Listing not found"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - Error occurred when sending a message 🐛",
+         "message": "Oops, an internal error occurred 🐛 Please try again"
+      },
+      "contact": {
+         "title": "",
+         "message": ""
+      },
+      "verification": {
+         "title": "{{app_name}} - signup",
+         "message": "You now need to verify your subscription. Just go to your email inbox and click on activation link"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}}",
+         "error": "Please verify the provided information"
+      }
+   },
+   "signup": {
+      "signup": {
+         "title": "{{app_name}} - signup"
+      },
+      "EMAIL_TAKEN": {
+         "title": "{{app_name}} - signup error",
+         "error": "Email has been taken"
+      },
+      "BAD_EMAIL": {
+         "title": "{{app_name}} - signup error",
+         "error": "Please use your personal Email"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - signup error",
+         "error": "Oops, an internal error occurred 🐛 Please try again"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - signup error",
+         "error": "Please verify the provided information"
+      },
+      "UNAUTHORIZED": {
+         "title": "{{app_name}} - confirmation error",
+         "error": "You are not authorised to continue. Please subscribe first"
+      },
+      "INCORRECT_TOKEN": {
+         "title": "{{app_name}} - confirmation error",
+         "error": "You are not authorised to continue. Please subscribe first"
+      },
+      "ALREADY_VERIFIED": {
+         "title": "{{app_name}} - confirmation error",
+         "error": "You can login. You are now part of our familly"
+      }
+   },
+   "user_profile": {
+      "user_profile": {
+         "title": "{{app_name}} - Profile",
+         "success": "Informations mises à jour",
+         "error": ""
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - user profile error",
+         "error": "Please verify the provided information"
+      }
+   },
+   "login": {
+      "login": {
+         "title": "{{app_name}} - login"
+      },
+      "INCORRECT_CREDENTIALS": {
+         "title": "{{app_name}} - login error",
+         "error": "Please verify email and password and try again"
+      },
+      "USER_UNVERIFIED": {
+         "title": "{{app_name}} - login error",
+         "error": "Please check your email inbox to activate your account"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - login error",
+         "error": "Oops, an internal error occurred when authenticating 🐛 Please try again"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - signup error",
+         "error": "Please verify the provided information"
+      }
+   },
+   "reset": {
+      "reset": {
+         "title": "{{app_name}} - password reset"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - password reset error",
+         "error": "Oops, an internal error occurred resetting the password 🐛 Please try again"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - reset error",
+         "error": "Please verify the provided information"
+      }
+   },
+   "mail": {
+      "bootstrap": "app instance bootstrapped correctly",
+      "signup": {
+         "subject": "Account Verification Token",
+         "text": "Hello,\n\nPlease verify your account by clicking here:\n{{host}}confirmation/{{token}}/",
+         "html": "Hello,\n\nPlease verify your account by clicking here:\n{{host}}confirmation/{{token}}/"
+      }
+   },
+   "blog": {
+      "intro": "Blogs section is dedicated to listings that are unclassified. Admin also uses blogs section to post on {{app_name}} for announcements"
+   },
+   "generic": {
+      "error": {
+         "server": "Server is having hard time. Please try again"
+      }
+   }
+}

@@ -1,0 +1,15 @@
+{
+    "root": true,
+    "extends": ["eslint:recommended", "plugin:ft-flow/recommended", "prettier"],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parser": "hermes-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "requireConfigFile": false
+    },
+    "plugins": ["ft-flow"]
+}

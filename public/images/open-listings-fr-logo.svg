@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-3.479 0 1003.479 244.197" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Barriecito">@import url(https://fonts.googleapis.com/css2?family=Barriecito%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+    <style bx:fonts="Aguafina Script">@import url(https://fonts.googleapis.com/css2?family=Aguafina+Script%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <text style="font-family: Barriecito; font-size: 150px; text-anchor: middle; white-space: pre; opacity: 0.9;"><tspan style="font-family: 'Aguafina Script'; font-size: 87px; text-decoration: overline solid rgba(255, 255, 255, 0.9);" x="500" y="168.868">LES</tspan><tspan> PERIODIQUES</tspan></text>
+  <rect x="-2.722" y="-7.051" width="1000.554" height="235.548" style="stroke: rgb(0, 0, 0); fill: rgba(255, 255, 255, 0); paint-order: fill; stroke-width: 31px;"/>
+</svg>

@@ -1,0 +1,50 @@
+<% if(typeof section !== 'undefined'){ %>
+<details open>
+  <summary class="" data-trans="(search)">Fuzzy Search</summary>
+  <h2 class="hidden" data-trans="(fuzzysearch)">Fuzzy search</h2>
+  <form class="text-search-form" action="/listings/search/textSearch" method="POST" name="queryTextSearch">
+    <% if(features.geo){ %>
+      <label>
+        <span data-trans="(divisions)">Départements...</span>
+        <input id="autoCompleter-states" name="div_q" type="text" data-trans="(divisions)">
+      </label>
+    <% } %>
+
+    <label for="exact" class="checkbox-form-field">
+        <input type="checkbox" name="exact" id="exact">
+        <span data-trans="(exact?)">Exact ?</span>
+    </label>
+
+    <label>
+      <span>Description</span>
+      <input class="form-control w-100 p-1" name="title_desc" value="" placeholder="titre ou description">
+    </label>
+
+    <label>
+      <span data-trans="(sincedate)">Since date</span>
+      <input
+        id="since"
+        class="form-control w-auto flex text-muted p-1 flex-grow-1"
+        type="date"
+        name="since"
+        value="2021-04-01"
+        min="2021-04-01"
+      >
+    </label>
+
+    <button
+      type="submit"
+      class="btn btn-primary"
+      data-trans="(search)"
+      hx-post="/listings/search/textSearch"
+      hx-trigger="click"
+      hx-target="#listings_parser_component"
+      hx-swap="outerHTML"
+    >
+      Recherche
+    </button>
+
+    <input type="hidden" name="section" value='<%=section%>'>
+  </form>
+</details>
+<% } %>

@@ -1,0 +1,54 @@
+<% if(typeof section !== 'undefined' && section === 'markets'){ %>
+<br>
+<hr>
+<details>
+  <summary class="" data-trans="market-page.add">Add a Market</summary>
+  <div class="row">
+
+    <div class="col-lg-4">
+      <%~ include('editor', it); %>
+    </div>
+
+    <div class="col-lg-4 p-2">
+      <div class="map" id="add-listing-map"></div>
+    </div>
+
+    <form class="col-lg-4 d-flex flex-wrap p-4" action="/listings/markets" enctype="multipart/form-data" method="POST" name="addMarket">
+      <div class="mb-3 w-100 py-2">
+        <input name="title" class="form-control add w-100 py-1" id="title" value="" placeholder="titre">
+      </div>
+      <div class="w-100 my-auto py-1">
+        <label class="" for="offer" data-trans="market-page.(offer)">Offer ?</label>
+        <input type="checkbox" class="query m-1" name="offer" id="offer">
+      </div>
+      <div class="w-100 my-auto py-1">
+        <label class="" for="price">Prix ?</label>
+        <input type="number" name="price" id="price" value="" data-type="currency" placeholder="100">
+        <i>€</i>
+      </div>
+      <div class="mb-3 w-100 py-2">
+        <%~ include('tag', it); %>
+      </div>
+      <div>
+
+        <input name="desc" class="add" id="description" value="" type="hidden">
+      </div>
+      <input type="hidden" id="lat" name="lat">
+      <input type="hidden" id="lng" name="lng">
+      <!-- Division better to handle this by JS -->
+      <input type="hidden" id="div" name="div" value='Paris'>
+      <input type="hidden" name="section" value='markets'>
+      <% /* <div class="custom-file-container" data-upload-id="my-unique-id"></div> */ %>
+
+      <div class="mb-3 py-2">
+        <label class=""><b>Rajouter une image:</b></label>
+        <input class="w-100 py-1" type="file" value='image' name='avatar' accept="image/*" onchange="loadFile(event)">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" id="output" width="0" alt="image to upload" />
+      </div>
+      <div class="w-100">
+        <button type="submit" class="btn btn-primary w-100 py-2 sm:w-auto sm:py-1" id="add-listing">Déposer l'annonce</button>
+      </div>
+    </form>
+  </div>
+</details>
+<% } %>

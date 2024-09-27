@@ -1,0 +1,83 @@
+export default {
+    announcements: 'announcements',
+    blog: {
+        intro: 'intro',
+    },
+    blog_: 'blog',
+    doc: {
+        about: 'about',
+        agreement: 'agreement',
+        blogs: 'blogs',
+        login: 'login',
+        markets: 'markets',
+        skills: 'skills',
+        validation: 'validation',
+    },
+    doc_: 'doc',
+    generic: {
+        error: 'error',
+    },
+    generic_: 'generic',
+    index: {
+        division: 'division',
+        keyword: 'keyword',
+        listings: 'listings',
+        tags: 'tags',
+    },
+    index_: 'index',
+    listing: {
+        contact: 'contact',
+        id: 'id',
+        post: 'post',
+    },
+    listing_: 'listing',
+    listings: {
+        POST_ERR: 'POST_ERR',
+        listings: 'listings',
+    },
+    listings_: 'listings',
+    login: {
+        INCORRECT_CREDENTIALS: 'INCORRECT_CREDENTIALS',
+        SERVER_ERROR: 'SERVER_ERROR',
+        USER_UNVERIFIED: 'USER_UNVERIFIED',
+        VALIDATION_ERROR: 'VALIDATION_ERROR',
+    },
+    login_: 'login',
+    mail: {
+        bootstrap: '',
+        signup: 'signup',
+    },
+    mail_: 'mail',
+    message: {
+        NOT_FOUND: 'NOT_FOUND',
+        SERVER_ERROR: 'SERVER_ERROR',
+        VALIDATION_ERROR: 'VALIDATION_ERROR',
+        contact: 'contact',
+        verification: 'verification',
+    },
+    message_: 'message',
+    userProfile: {
+        SERVER_ERROR: 'SERVER_ERROR',
+        VALIDATION_ERROR: 'VALIDATION_ERROR',
+    },
+    userProfile_: 'user_profile',
+    reset: {
+        SERVER_ERROR: 'SERVER_ERROR',
+        VALIDATION_ERROR: 'VALIDATION_ERROR',
+    },
+    reset_: 'reset',
+    signup: {
+        ALREADY_VERIFIED: 'ALREADY_VERIFIED',
+        BAD_EMAIL: 'BAD_EMAIL',
+        EMAIL_TAKEN: 'EMAIL_TAKEN',
+        INCORRECT_TOKEN: 'INCORRECT_TOKEN',
+        SERVER_ERROR: 'SERVER_ERROR',
+        UNAUTHORIZED: 'UNAUTHORIZED',
+        VALIDATION_ERROR: 'VALIDATION_ERROR',
+    },
+    signup_: 'signup',
+    tags: {
+        tags: 'tags',
+    },
+    tags_: 'tags',
+}

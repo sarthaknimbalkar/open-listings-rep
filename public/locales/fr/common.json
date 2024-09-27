@@ -1,0 +1,59 @@
+{
+  "(events)": "Événements et réunions",
+  "(skills)": "Emploi",
+  "(hobbies)": "Loisirs",
+  "(blogs)": "Blogs",
+  "(buy)": "Acheter un déploiement !",
+  "(about)": "A propos",
+  "(howto)": "Comment",
+  "(tags)": "Mots clés",
+  "(contact)": "Contact 📩",
+  "(login)": "Connexion rapide 🔒",
+  "(signup)": "Inscription 🔒",
+  "(password)": "Mot de passe",
+  "(firstname)": "Prénom",
+  "(secondname)": "Nom de famille",
+  "(reset)": "Réinitialiser",
+  "(reset-pass)": "Réinitialiser le mot de passe",
+  "(search)": "Recherche",
+  "(exact?)": "Exactement ?",
+  "(sincedate)": "Depuis",
+  "(fuzzysearch)": "Recherche approximative",
+  "(description)": "Description",
+  "(title)": "Titre",
+  "(title|description)": "Titre ou description",
+  "(divisions)": "Département",
+  "(posted-by)": "Publié par:",
+  "geo": {
+    "(search)": "Recherche géolocalisée"
+  },
+  "blog-page": {
+    "add": "Ajouter un article Blog"
+  },
+  "market-page": {
+    "add": "Ajouter une publication Don",
+    "(offer)": "Offre ?"
+  },
+  "event-page": {
+    "add": "Ajouter une publication Evénement",
+    "start-date": "Date de début",
+    "end-date": "Date de fin"
+  },
+  "hobby-page": {
+    "add": "Ajouter une publication Loisir"
+  },
+  "skill-page": {
+    "add": "Ajouter une publication Compétence",
+    "(offer)": "Offre ?"
+  },
+  "tag-language": "Langue des balises: ",
+  "choose-tags": "Cliquez ici pour choisir les balises",
+  "delimitations-map": "carte des délimitations",
+  "listings-map": "carte des annonces",
+  "(english)": "Anglais",
+  "(arabic)": "Arabe",
+  "(french)": "Français",
+  "(sections)": "Sections",
+  "(marketplace)": "Vente & achat",
+  "(no_cookies)": "Pas de publicité et pas de cookies. Pas de faux comptes ni de fausses annonces"
+}
