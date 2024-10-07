@@ -1,1 +1,231 @@
-
+{
+   "$schema": "../schema",
+   "announcements": [
+      "{{app_name}} está en modo de demostración y el servicio aún está en desarrollo activo 🐛"
+   ],
+   "listings": {
+      "listings": {
+         "title": "{{app_name}} - Todas las secciones",
+         "intro": "{{app_name}} trae anuncios clasificados a la web. Disfruta de anuncios no comerciales de forma gratuita",
+         "success": "Hemos obtenido los listados más recientes de todas las secciones...",
+         "error": ""
+      },
+      "markets": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Vende artículos nuevos o usados. Dale una segunda vida a tu ropa, muebles, electrónicos, etc.",
+         "success": "Hemos obtenido algunos de los listados más recientes del mercado...",
+         "error": ""
+      },
+      "events": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Para todos aquellos que deseen sugerir pasatiempos, encuentros y torneos deportivos. Ponte en contacto con los organizadores y socializa fácilmente",
+         "success": "Hemos obtenido algunos de los listados de eventos más recientes...",
+         "error": ""
+      },
+      "skills": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Deja que la gente conozca tus habilidades y haz crecer tu negocio o carrera profesional",
+         "success": "Hemos obtenido algunos de los listados de habilidades más recientes...",
+         "error": ""
+      },
+      "hobbies": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "Comparte tus pasatiempos libremente. Encuentra amigos con intereses similares hablando de ellos",
+         "success": "Hemos obtenido algunos de los listados de pasatiempos más recientes...",
+         "error": ""
+      },
+      "blogs": {
+         "title": "{{app_name}} - <i>{{section}}</i>",
+         "intro": "¡Pasiones, hobbies y pasatiempos! Cualquier tema puede entrar aquí, así que siéntete libre de compartir tus pensamientos.",
+         "success": "Hemos obtenido algunos hilos de blogs...",
+         "error": ""
+      },
+      "textSearch": {
+         "title": "{{app_name}} - Resultados de búsqueda",
+         "intro": "La publicidad clasificada llega a la web. ¡Usa nuestra búsqueda para encontrar los mejores resultados incluso en diferentes idiomas!",
+         "success": "Hemos obtenido algunos listados para tu búsqueda...",
+         "error": ""
+      },
+      "geolocation": {
+         "title": "{{app_name}} - Resultados geolocalizados",
+         "intro": "La publicidad clasificada llega a la web. ¡Usa la búsqueda por geolocalización para encontrar listados cercanos!",
+         "success": "Hemos obtenido algunos listados cercanos...",
+         "error": ""
+      },
+      "POST_ERR": {
+         "title": "{{app_name}} - Error 🐛",
+         "intro": "La publicidad clasificada llega a la web. Desafortunadamente, tu nuevo anuncio no se pudo publicar debido a un error. Por favor, inténtalo de nuevo",
+         "success": "",
+         "error": ""
+      }
+   },
+   "index": {
+      "division": {
+         "error": "",
+         "intro": "",
+         "success": "Hemos obtenido listados de todas las secciones ubicadas en esta división 🗺️...",
+         "title": "{{app_name}} - División 📍🗺️: <i>{{subtitle}}</i>"
+      },
+      "keyword": {
+         "error": "",
+         "intro": "",
+         "success": "Hemos obtenido listados de todas las secciones para esta palabra clave 🔎...",
+         "title": "{{app_name}} - Palabra clave: <i>{{subtitle}}</i>"
+      },
+      "listings": {
+         "error": "",
+         "intro": "La publicidad clasificada llega a la web.",
+         "success": "",
+         "title": "{{app_name}} - Listados de hoy"
+      },
+      "tags": {
+         "error": "",
+         "intro": "La publicidad clasificada llega a la web.",
+         "success": "Hemos obtenido listados de todas las secciones relacionadas con la etiqueta 📝",
+         "title": "{{app_name}} - Etiqueta 📝: <i>{{subtitle}}</i>"
+      }
+   },
+   "tags": {
+      "tags": {
+         "title": "",
+         "intro": "",
+         "success": "",
+         "error": ""
+      }
+   },
+   "listing": {
+      "id": {
+         "title": "{{app_name}} - 📚 - <i>{{section}}</i>",
+         "success": "Hemos obtenido el listado",
+         "error": ""
+      },
+      "post": {
+         "title": "{{app_name}} - 📚 - <i>{{section}}</i>",
+         "success": "Gracias por publicar un nuevo anuncio. Será visible después de la moderación...",
+         "error": "¡La imagen se cargará en breve!"
+      },
+      "contact": {
+         "title": "{{app_name}} - Contacto",
+         "success": "Correo electrónico enviado con éxito al publicador",
+         "error": ""
+      }
+   },
+   "message": {
+      "NOT_FOUND": {
+         "title": "{{app_name}} - Error al enviar el mensaje 🐛",
+         "message": "No se encontró el anuncio, puede estar desactivado o aún no aprobado...",
+         "success": "",
+         "error": "Listado no encontrado"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - Error al enviar el mensaje 🐛",
+         "message": "Oops, ocurrió un error interno 🐛 Por favor, inténtalo de nuevo"
+      },
+      "contact": {
+         "title": "",
+         "message": ""
+      },
+      "verification": {
+         "title": "{{app_name}} - registro",
+         "message": "Ahora necesitas verificar tu suscripción. Solo ve a tu bandeja de entrada y haz clic en el enlace de activación"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}}",
+         "error": "Por favor verifica la información proporcionada"
+      }
+   },
+   "signup": {
+      "signup": {
+         "title": "{{app_name}} - registro"
+      },
+      "EMAIL_TAKEN": {
+         "title": "{{app_name}} - error de registro",
+         "error": "El correo electrónico ya ha sido registrado"
+      },
+      "BAD_EMAIL": {
+         "title": "{{app_name}} - error de registro",
+         "error": "Por favor, utiliza tu correo electrónico personal"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - error de registro",
+         "error": "Oops, ocurrió un error interno 🐛 Por favor, inténtalo de nuevo"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - error de registro",
+         "error": "Por favor verifica la información proporcionada"
+      },
+      "UNAUTHORIZED": {
+         "title": "{{app_name}} - error de confirmación",
+         "error": "No estás autorizado para continuar. Por favor, regístrate primero"
+      },
+      "INCORRECT_TOKEN": {
+         "title": "{{app_name}} - error de confirmación",
+         "error": "No estás autorizado para continuar. Por favor, regístrate primero"
+      },
+      "ALREADY_VERIFIED": {
+         "title": "{{app_name}} - error de confirmación",
+         "error": "Puedes iniciar sesión. Ahora eres parte de nuestra familia"
+      }
+   },
+   "user_profile": {
+      "user_profile": {
+         "title": "{{app_name}} - Perfil",
+         "success": "Información actualizada",
+         "error": ""
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - error de perfil de usuario",
+         "error": "Por favor verifica la información proporcionada"
+      }
+   },
+   "login": {
+      "login": {
+         "title": "{{app_name}} - inicio de sesión"
+      },
+      "INCORRECT_CREDENTIALS": {
+         "title": "{{app_name}} - error de inicio de sesión",
+         "error": "Por favor verifica el correo electrónico y la contraseña e inténtalo de nuevo"
+      },
+      "USER_UNVERIFIED": {
+         "title": "{{app_name}} - error de inicio de sesión",
+         "error": "Por favor revisa tu bandeja de entrada para activar tu cuenta"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - error de inicio de sesión",
+         "error": "Oops, ocurrió un error interno al autenticar 🐛 Por favor, inténtalo de nuevo"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - error de registro",
+         "error": "Por favor verifica la información proporcionada"
+      }
+   },
+   "reset": {
+      "reset": {
+         "title": "{{app_name}} - restablecimiento de contraseña"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - error de restablecimiento de contraseña",
+         "error": "Oops, ocurrió un error interno al restablecer la contraseña 🐛 Por favor, inténtalo de nuevo"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - error de restablecimiento",
+         "error": "Por favor verifica la información proporcionada"
+      }
+   },
+   "mail": {
+      "bootstrap": "instancia de la aplicación iniciada correctamente",
+      "signup": {
+         "subject": "Token de verificación de cuenta",
+         "text": "Hola,\n\nPor favor, verifica tu cuenta haciendo clic aquí:\n{{host}}confirmation/{{token}}/",
+         "html": "Hola,\n\nPor favor, verifica tu cuenta haciendo clic aquí:\n{{host}}confirmation/{{token}}/"
+      }
+   },
+   "blog": {
+      "intro": "La sección de blogs está dedicada a listados que no están clasificados. El administrador también usa la sección de blogs para publicar anuncios sobre {{app_name}}"
+   },
+   "generic": {
+      "error": {
+         "server": "El servidor está teniendo dificultades. Por favor inténtalo de nuevo"
+      }
+   }
+}
