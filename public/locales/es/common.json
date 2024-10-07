@@ -1,1 +1,59 @@
-
+{
+  "(events)": "Eventos y reuniones",
+  "(skills)": "Habilidades y competencias",
+  "(hobbies)": "Pasatiempos",
+  "(blogs)": "Blogs",
+  "(buy)": "¡Compra un despliegue!",
+  "(about)": "Acerca de",
+  "(howto)": "Cómo hacer",
+  "(tags)": "Etiquetas",
+  "(contact)": "Contacto 📩",
+  "(login)": "Iniciar sesión 🔒",
+  "(signup)": "Registrarse 🔒",
+  "(password)": "Contraseña",
+  "(firstname)": "Nombre",
+  "(secondname)": "Apellido",
+  "(reset)": "Restablecer",
+  "(reset-pass)": "Restablecer contraseña",
+  "(search)": "Buscar 🔎",
+  "(exact?)": "¿Exactamente?",
+  "(sincedate)": "Desde",
+  "(fuzzysearch)": "Búsqueda aproximada",
+  "(description)": "Descripción",
+  "(title)": "Título",
+  "(title|description)": "Título o descripción",
+  "(divisions)": "Divisiones",
+  "(posted-by)": "Publicado por:",
+  "geo": {
+    "(search)": "Búsqueda por geolocalización"
+  },
+  "blog-page": {
+    "add": "Agregar un artículo"
+  },
+  "market-page": {
+    "add": "Agregar un producto",
+    "(offer)": "¿Oferta?"
+  },
+  "event-page": {
+    "add": "Agregar una publicación de evento",
+    "start-date": "Fecha de inicio",
+    "end-date": "Fecha de finalización"
+  },
+  "hobby-page": {
+    "add": "Agregar una publicación de pasatiempo"
+  },
+  "skill-page": {
+    "add": "Agregar una publicación de habilidad",
+    "(offer)": "¿Oferta?"
+  },
+  "tag-language": "Idioma de la etiqueta: ",
+  "choose-tags": "Haz clic aquí para elegir etiquetas",
+  "delimitations-map": "Mapa de delimitaciones",
+  "listings-map": "Mapa de listados",
+  "(english)": "Inglés",
+  "(arabic)": "Árabe",
+  "(french)": "Francés",
+  "(sections)": "Secciones",
+  "(marketplace)": "Mercado",
+  "(no_cookies)": "Sin anuncios y sin cookies. Sin cuentas falsas ni listados falsos"
+}
